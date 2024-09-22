@@ -1,0 +1,40 @@
+curl -X POST https://0lrtdebg9i.execute-api.us-east-1.amazonaws.com/dev/api-ep \
+-H "Content-Type: application/json" \
+-d '[
+  {
+    "person": 2301,
+    "time": 30,
+    "amount": 13.25,
+    "gender": "F",
+    "age": 63,
+    "income": 93000,
+    "reward": 5,
+    "difficulty": 20,
+    "duration": 10,
+    "offer_type": "discount",
+    "email": 1,
+    "social": 0,
+    "mobile": 0,
+    "web": 1,
+    "days_since_membership": 1875,
+    "offered_channels_count": 2
+  },
+  {
+    "person": 10,
+    "time": 168,
+    "amount": 12.50,
+    "gender": "M",
+    "age": 70,
+    "income": 50000,
+    "reward": 3,
+    "difficulty": 10,
+    "duration": 5,
+    "offer_type": "bogo",
+    "email": 0,
+    "social": 1,
+    "mobile": 1,
+    "web": 0,
+    "days_since_membership": 1771,
+    "offered_channels_count": 2
+  }
+]'
