@@ -103,7 +103,6 @@ In this capstone of AWS Machine Learning Engineer we developend a prediction for
     </p>   
     -You can copy the command from here
 
-        ```sh
         curl -X POST https://0lrtdebg9i.execute-api.us-east-1.amazonaws.com/dev/api-ep \
         -H "Content-Type: application/json" \
         -d '[
@@ -145,7 +144,7 @@ In this capstone of AWS Machine Learning Engineer we developend a prediction for
         }
         ]'
 
-        ```
+      
 - Final results of our model where promissing but needs to improve due to we only trained 12 models.  For a first try, our recommendation is to put the base model because was with the best benchmarchs.
     <p align="center">
       <img src="doc/imgs/training/end_model_test.PNG?raw=true" width="100%" style="display:inline-block;"/>    
@@ -161,9 +160,6 @@ In this capstone of AWS Machine Learning Engineer we developend a prediction for
 
 #### Video of the explanations must be here
 
-<!--[<img src= "https://img.youtube.com/vi/O12xLjQX3pM/0.jpg" />](https://youtu.be/O12xLjQX3pM)-->
-
-
 </details>
 
 
@@ -173,7 +169,7 @@ In this capstone of AWS Machine Learning Engineer we developend a prediction for
 <details open>
 <summary> <b>Issues<b></summary>
 
-- No issues encoutered
+- No issues encountered
 
 </details>
 
